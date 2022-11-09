@@ -1,0 +1,1 @@
+print(f'Bem-vindo {input()}! Aguardamos você na/o {input()}!')

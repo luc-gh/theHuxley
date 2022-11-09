@@ -1,0 +1,5 @@
+p = int(input())
+q = int(input())
+v = 5.3 if p == 1 else (6.0 if p == 2 else (3.2 if p == 3 else 2.5))
+if v*q > 40.0 or q >= 15: print(f'R$ {v*q-15*q*v/100:.2f}\n')
+else: print(f'R$ {q*v:.2f}\n')
